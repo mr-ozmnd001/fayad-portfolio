@@ -172,6 +172,50 @@ ul li a:hover {
     width: min(25rem, 90%);
     border-radius: 100%;
 }
+h2 {
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.gallery-section img {
+    width: 50%;
+    height: 50vh;
+    float: right;
+}
+.gallery__section img {
+    width: 30%;
+    height: 60vh;
+}
+.footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.footerbottom{
+    color: #111;
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-icons a i{
+    font-size:2rem;
+    color: black;
+    opacity: 0.9;
+}
 @media (width < 750px) {
     nav .checkbox{
         display: block;
