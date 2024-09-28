@@ -190,6 +190,56 @@ h2 {
     width: 30%;
     height: 60vh;
 }
+
+/*This is Contact section*/
+.contact{
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-box {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-box i {
+    font-size: 40px;
+    color: #9333ea;
+    margin-bottom: 10px;
+}
+
+.contact-box h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+    color: #333;
+} 
+
+
 .footer {
     padding: 0;
     margin: 0;
@@ -197,8 +247,10 @@ h2 {
     background-color: white;
 }
 .footerbottom{
-    color: #111;
+    color: whitesmoke;
     text-align: center;
+    background-color: #9333ea;
+    padding: 1rem 0;
 }
 .social-icons{
     display: flex;
@@ -251,5 +303,16 @@ h2 {
 
     .action__btns {
         margin: auto;
+    }
+    @media (max-width: 768px) {
+        .contact-box {
+            width: 45%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .contact-box {
+            width: 100%;
+        }
     }
 }
